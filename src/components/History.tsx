@@ -1,5 +1,12 @@
 import CloseIcon from "@mui/icons-material/Close";
-import { Box, TableCell, TableRow, Typography } from "@mui/material";
+import {
+  Box,
+  IconButton,
+  TableCell,
+  TableRow,
+  Tooltip,
+  Typography,
+} from "@mui/material";
 import type { HistoryItem } from "../types";
 import RewardsTable from "./RewardsTable";
 
@@ -80,19 +87,11 @@ export default function History({
       >
         History ({history.length} items)
         {onClearAll && (
-          <button
-            onClick={onClearAll}
-            style={{
-              background: "none",
-              border: "none",
-              color: "#fff",
-              cursor: "pointer",
-              padding: 0,
-            }}
-            title="Clear all history"
-          >
-            <CloseIcon sx={{ fontSize: 20 }} />
-          </button>
+          <Tooltip title="Clear history">
+            <IconButton onClick={onClearAll}>
+              <CloseIcon sx={{ fontSize: 20, color: "#c72424" }} />
+            </IconButton>
+          </Tooltip>
         )}
       </Typography>
       <RewardsTable rows={rows} footer={footer} onDelete={onDelete} />

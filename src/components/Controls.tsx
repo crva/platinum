@@ -1,4 +1,4 @@
-import { Clear } from "@mui/icons-material";
+import { Close } from "@mui/icons-material";
 import { Box, IconButton, MenuItem, Select, TextField } from "@mui/material";
 import type { RelicTier } from "../types";
 import DraggableSquares from "./DraggableSquares";
@@ -64,7 +64,7 @@ export default function Controls({
                 paddingRight: 0,
               }}
             >
-              <Clear />
+              <Close sx={{ color: "#c72424" }} />
             </IconButton>
           ) : null,
         }}

@@ -1,4 +1,11 @@
-import { Card, CardContent, Menu, MenuItem, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  Divider,
+  Menu,
+  MenuItem,
+  Typography,
+} from "@mui/material";
 import { useState } from "react";
 import type { Relic, Reward } from "../types";
 import RewardsTable from "./RewardsTable";
@@ -138,6 +145,8 @@ export default function RelicCard({
         >
           Add to history
         </MenuItem>
+        <Divider />
+        <MenuItem onClick={() => setAnchorEl(null)}>Close</MenuItem>
       </Menu>
     </Card>
   );
