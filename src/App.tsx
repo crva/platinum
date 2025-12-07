@@ -40,7 +40,7 @@ function App() {
   const handleTypeChange = (e: any) => {
     setSearchParams({
       type: e.target.value,
-      search: relicNames,
+      search: "",
     });
   };
   const handleRelicNamesChange = (e: any) => {
@@ -78,25 +78,47 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const names = relicNames
-      .split(" ")
-      .map((n) => n.trim().toLowerCase())
-      .filter((n) => n.length > 0);
-    if (names.length === 0) {
-      setFilteredRelics([]);
-      return;
-    }
-    const filtered = names
-      .map((name) =>
-        data.find(
+    if (type === "Multiple") {
+      const parts = relicNames
+        .split(" ")
+        .map((n) => n.trim().toLowerCase())
+        .filter((n) => n.length > 0);
+      const filtered: Relic[] = [];
+      for (let i = 0; i < parts.length; i += 2) {
+        const tierInput = parts[i];
+        const name = parts[i + 1];
+        if (!name) break;
+        const tier = tierInput.charAt(0).toUpperCase() + tierInput.slice(1);
+        const relic = data.find(
           (r) =>
-            r.tier === type &&
+            r.tier === tier &&
             r.state === "Intact" &&
             r.relicName.toLowerCase() === name
+        );
+        if (relic) filtered.push(relic);
+      }
+      setFilteredRelics(filtered);
+    } else {
+      const names = relicNames
+        .split(" ")
+        .map((n) => n.trim().toLowerCase())
+        .filter((n) => n.length > 0);
+      if (names.length === 0) {
+        setFilteredRelics([]);
+        return;
+      }
+      const filtered = names
+        .map((name) =>
+          data.find(
+            (r) =>
+              r.tier === type &&
+              r.state === "Intact" &&
+              r.relicName.toLowerCase() === name
+          )
         )
-      )
-      .filter(Boolean) as Relic[];
-    setFilteredRelics(filtered);
+        .filter(Boolean) as Relic[];
+      setFilteredRelics(filtered);
+    }
   }, [data, type, relicNames]);
 
   useEffect(() => {

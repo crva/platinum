@@ -1,9 +1,15 @@
 import { Close } from "@mui/icons-material";
 import { Box, IconButton, MenuItem, Select, TextField } from "@mui/material";
-import type { RelicTier } from "../types";
 import DraggableSquares from "./DraggableSquares";
 
-const relicTypes: RelicTier[] = ["Lith", "Meso", "Neo", "Axi", "Requiem"];
+const relicTypes: string[] = [
+  "Multiple",
+  "Lith",
+  "Meso",
+  "Neo",
+  "Axi",
+  "Requiem",
+];
 
 interface ControlsProps {
   type: string;
@@ -39,7 +45,11 @@ export default function Controls({
         ))}
       </Select>
       <TextField
-        label="Relic names (ex: C3 A2 ...)"
+        label={
+          type === "Multiple"
+            ? "Relic types and names (ex: axi a2 lith b2 ...)"
+            : "Relic names (ex: C3 A2 ...)"
+        }
         variant="outlined"
         size="small"
         value={relicNames}
