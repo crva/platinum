@@ -1,6 +1,7 @@
 import CloseIcon from "@mui/icons-material/Close";
 import {
-  Box,
+  Card,
+  CardContent,
   IconButton,
   TableCell,
   TableRow,
@@ -72,29 +73,32 @@ export default function History({
   );
 
   return (
-    <Box
-      sx={{ mt: 4, bgcolor: "grey.900", p: 2, borderRadius: 1, width: "30vw" }}
+    <Card
+      variant="outlined"
+      sx={{ bgcolor: "grey.900", color: "#fff", width: "30vw", mt: 2 }}
     >
-      <Typography
-        variant="h6"
-        sx={{
-          color: "#fff",
-          mb: 2,
-          display: "flex",
-          alignItems: "center",
-          gap: 1,
-        }}
-      >
-        History ({history.length} items)
-        {onClearAll && (
-          <Tooltip title="Clear history">
-            <IconButton onClick={onClearAll}>
-              <CloseIcon sx={{ fontSize: 20, color: "#c72424" }} />
-            </IconButton>
-          </Tooltip>
-        )}
-      </Typography>
-      <RewardsTable rows={rows} footer={footer} onDelete={onDelete} />
-    </Box>
+      <CardContent sx={{ p: 1 }}>
+        <Typography
+          variant="h6"
+          sx={{
+            color: "#fff",
+            mb: 2,
+            display: "flex",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
+          History ({history.length} items)
+          {onClearAll && (
+            <Tooltip title="Clear history">
+              <IconButton onClick={onClearAll}>
+                <CloseIcon sx={{ fontSize: 20, color: "#c72424" }} />
+              </IconButton>
+            </Tooltip>
+          )}
+        </Typography>
+        <RewardsTable rows={rows} footer={footer} onDelete={onDelete} />
+      </CardContent>
+    </Card>
   );
 }
