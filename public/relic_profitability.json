@@ -1,0 +1,4226 @@
+[
+  {
+    "tier": "Axi",
+    "relicName": "A1",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0.8490566037735849
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.707317073170732
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.285714285714286
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.478260869565219
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.75609756097561
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.64516129032258
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.954545454545454
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A18",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A19",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.6136363636363633
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 11.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7027027027027026
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.857142857142857
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.877551020408163
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.75
+  },
+  {
+    "tier": "Axi",
+    "relicName": "A9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.166666666666666
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4166666666666665
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.918367346938775
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.290322580645161
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4166666666666665
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.681818181818182
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.208333333333334
+  },
+  {
+    "tier": "Axi",
+    "relicName": "B9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.142857142857143
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4722222222222223
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2894736842105265
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.225806451612903
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.857142857142857
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.985294117647059
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.482142857142858
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.421875
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Axi",
+    "relicName": "C9",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.8918918918918919
+  },
+  {
+    "tier": "Axi",
+    "relicName": "D1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8965517241379315
+  },
+  {
+    "tier": "Axi",
+    "relicName": "D2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8965517241379315
+  },
+  {
+    "tier": "Axi",
+    "relicName": "D3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.375
+  },
+  {
+    "tier": "Axi",
+    "relicName": "D4",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1
+  },
+  {
+    "tier": "Axi",
+    "relicName": "D5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.678571428571429
+  },
+  {
+    "tier": "Axi",
+    "relicName": "E1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Axi",
+    "relicName": "E2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 20.68181818181818
+  },
+  {
+    "tier": "Axi",
+    "relicName": "F1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.1666666666666665
+  },
+  {
+    "tier": "Axi",
+    "relicName": "F2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Axi",
+    "relicName": "F3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.410256410256411
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.434782608695652
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.928571428571429
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.347826086956522
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 11.11111111111111
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.882352941176471
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.451612903225806
+  },
+  {
+    "tier": "Axi",
+    "relicName": "G9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.064516129032258
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333334
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.547169811320755
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.588235294117648
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.210526315789474
+  },
+  {
+    "tier": "Axi",
+    "relicName": "H8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.2631578947368425
+  },
+  {
+    "tier": "Axi",
+    "relicName": "I1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.142857142857143
+  },
+  {
+    "tier": "Axi",
+    "relicName": "I2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.0606060606060606
+  },
+  {
+    "tier": "Axi",
+    "relicName": "I3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.0606060606060606
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.061224489795918
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.660377358490567
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.375
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K12",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.9607843137254903
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.2727272727272725
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.027777777777778
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.041666666666667
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2222222222222223
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.761904761904762
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8
+  },
+  {
+    "tier": "Axi",
+    "relicName": "K9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.769230769230769
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L1",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.744186046511628
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.75
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.1739130434782608
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.074074074074073
+  },
+  {
+    "tier": "Axi",
+    "relicName": "L6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.62962962962963
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.0606060606060606
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.086206896551724
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.861111111111111
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6458333333333335
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.379032258064516
+  },
+  {
+    "tier": "Axi",
+    "relicName": "M6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.727272727272727
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.634146341463415
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.071428571428572
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.048780487804878
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.217391304347826
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.0540540540540535
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.9473684210526314
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0172413793103448
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.487804878048781
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8709677419354835
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Axi",
+    "relicName": "N9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.727272727272727
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O1",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.875
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8846153846153846
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8846153846153846
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.34375
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Axi",
+    "relicName": "O6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.499999999999999
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.583333333333333
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.586206896551724
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.2631578947368425
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.142857142857143
+  },
+  {
+    "tier": "Axi",
+    "relicName": "P9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "R1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.358490566037736
+  },
+  {
+    "tier": "Axi",
+    "relicName": "R2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.642857142857142
+  },
+  {
+    "tier": "Axi",
+    "relicName": "R3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.239130434782609
+  },
+  {
+    "tier": "Axi",
+    "relicName": "R4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.787878787878788
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.481481481481481
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.142857142857143
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.3478260869565215
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.470588235294118
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S18",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9375
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666666
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S3",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.4150943396226416
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S4",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.923076923076923
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4653465346534653
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.357142857142858
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.173913043478261
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.272727272727273
+  },
+  {
+    "tier": "Axi",
+    "relicName": "S9",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.973684210526316
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T1",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.5384615384615385
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.347826086956522
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.75
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.357142857142858
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8461538461538463
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.451612903225806
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.333333333333333
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.2
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.678571428571429
+  },
+  {
+    "tier": "Axi",
+    "relicName": "T9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.62962962962963
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V13",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V2",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.8085106382978722
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V3",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.8888888888888888
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7419354838709675
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.064516129032258
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 13.157894736842106
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8461538461538463
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.464285714285714
+  },
+  {
+    "tier": "Axi",
+    "relicName": "V9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.3076923076923075
+  },
+  {
+    "tier": "Axi",
+    "relicName": "W1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333334
+  },
+  {
+    "tier": "Axi",
+    "relicName": "W2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.142857142857143
+  },
+  {
+    "tier": "Axi",
+    "relicName": "W3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Axi",
+    "relicName": "Y1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.857142857142858
+  },
+  {
+    "tier": "Axi",
+    "relicName": "Y2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.2631578947368425
+  },
+  {
+    "tier": "Axi",
+    "relicName": "Z1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.148148148148148
+  },
+  {
+    "tier": "Axi",
+    "relicName": "Z2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7027027027027026
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.375
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454545
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.384615384615384
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.875
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.413793103448276
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.68421052631579
+  },
+  {
+    "tier": "Lith",
+    "relicName": "A9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.210526315789474
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.148936170212766
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B10",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.34375
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.947368421052632
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.315789473684211
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.714285714285714
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.2727272727272725
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4285714285714284
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.315789473684211
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2608695652173916
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.142857142857143
+  },
+  {
+    "tier": "Lith",
+    "relicName": "B9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.290322580645161
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.1818181818181817
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0434782608695654
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.413793103448276
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.833333333333334
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.90625
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.686274509803922
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.666666666666666
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.840909090909091
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2051282051282053
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.8
+  },
+  {
+    "tier": "Lith",
+    "relicName": "C9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.586206896551724
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.772727272727272
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.464285714285714
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.578947368421053
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.128205128205129
+  },
+  {
+    "tier": "Lith",
+    "relicName": "D6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Lith",
+    "relicName": "E1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.878048780487806
+  },
+  {
+    "tier": "Lith",
+    "relicName": "E2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Lith",
+    "relicName": "F1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4210526315789473
+  },
+  {
+    "tier": "Lith",
+    "relicName": "F2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.7037037037037033
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G1",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.2048192771084336
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.4074074074074066
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.888888888888889
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G2",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0.9615384615384615
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3928571428571432
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2758620689655173
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.1020408163265305
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.352941176470589
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.857142857142857
+  },
+  {
+    "tier": "Lith",
+    "relicName": "G9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454545
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.042553191489362
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.888888888888889
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.3076923076923075
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.0344827586206895
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.294117647058824
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.75
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.542372881355932
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.75
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8846153846153846
+  },
+  {
+    "tier": "Lith",
+    "relicName": "H9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.6875
+  },
+  {
+    "tier": "Lith",
+    "relicName": "I1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.210526315789474
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K10",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0.9259259259259258
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.576923076923077
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8846153846153846
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.358490566037736
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Lith",
+    "relicName": "K9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.157894736842106
+  },
+  {
+    "tier": "Lith",
+    "relicName": "L1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.484848484848485
+  },
+  {
+    "tier": "Lith",
+    "relicName": "L2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.6
+  },
+  {
+    "tier": "Lith",
+    "relicName": "L3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.282051282051282
+  },
+  {
+    "tier": "Lith",
+    "relicName": "L4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.431818181818182
+  },
+  {
+    "tier": "Lith",
+    "relicName": "L5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.357142857142858
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454546
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M10",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.727272727272727
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.64516129032258
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.608695652173914
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.692307692307692
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.225806451612903
+  },
+  {
+    "tier": "Lith",
+    "relicName": "M9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.954545454545454
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.714285714285714
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4722222222222223
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N13",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9268292682926833
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.411764705882353
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.315789473684211
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.846153846153846
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.838709677419355
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.8
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.75
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6764705882352944
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.272727272727273
+  },
+  {
+    "tier": "Lith",
+    "relicName": "N9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.481481481481481
+  },
+  {
+    "tier": "Lith",
+    "relicName": "O1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.6
+  },
+  {
+    "tier": "Lith",
+    "relicName": "O2",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.4044943820224718
+  },
+  {
+    "tier": "Lith",
+    "relicName": "O3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "O4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.499999999999999
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.499999999999999
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.518518518518518
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7142857142857144
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.75
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.7037037037037033
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.857142857142857
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Lith",
+    "relicName": "P9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Q1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.0833333333333335
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Q2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.846153846153846
+  },
+  {
+    "tier": "Lith",
+    "relicName": "R1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.290322580645161
+  },
+  {
+    "tier": "Lith",
+    "relicName": "R2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.142857142857143
+  },
+  {
+    "tier": "Lith",
+    "relicName": "R3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.631578947368421
+  },
+  {
+    "tier": "Lith",
+    "relicName": "R4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.8
+  },
+  {
+    "tier": "Lith",
+    "relicName": "R5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.666666666666666
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.9375
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S10",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.413793103448276
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.36842105263158
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.36842105263158
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S13",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2608695652173916
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.583333333333334
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.636363636363635
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.977272727272727
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.7037037037037033
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.375
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.660377358490567
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.333333333333333
+  },
+  {
+    "tier": "Lith",
+    "relicName": "S9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333334
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.666666666666667
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T3",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.9607843137254903
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.666666666666667
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5925925925925926
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.692307692307692
+  },
+  {
+    "tier": "Lith",
+    "relicName": "T9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.68421052631579
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.258064516129032
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 17.307692307692307
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0303030303030303
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.378378378378378
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4482758620689657
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.319148936170213
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9545454545454546
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.245283018867925
+  },
+  {
+    "tier": "Lith",
+    "relicName": "V9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.782608695652174
+  },
+  {
+    "tier": "Lith",
+    "relicName": "W1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.756097560975611
+  },
+  {
+    "tier": "Lith",
+    "relicName": "W2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 11.764705882352942
+  },
+  {
+    "tier": "Lith",
+    "relicName": "W3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2
+  },
+  {
+    "tier": "Lith",
+    "relicName": "W4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.615384615384615
+  },
+  {
+    "tier": "Lith",
+    "relicName": "X1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Y1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.347826086956522
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Z1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.555555555555555
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Z2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.129032258064516
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Z3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7419354838709675
+  },
+  {
+    "tier": "Lith",
+    "relicName": "Z4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.516129032258064
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454546
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.605263157894737
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "A8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.8
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B10",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.0408163265306123
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8301886792452833
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.875
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.272727272727273
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4193548387096775
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.863636363636363
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.315789473684211
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "B9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.947368421052632
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.716981132075472
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 11.19047619047619
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.048780487804878
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.703703703703702
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.947368421052632
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.3333333333333335
+  },
+  {
+    "tier": "Meso",
+    "relicName": "C9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.907407407407407
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 20.454545454545453
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.405405405405405
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8965517241379315
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.772727272727272
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.787234042553191
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.657894736842105
+  },
+  {
+    "tier": "Meso",
+    "relicName": "D7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E1",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.869158878504673
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.75
+  },
+  {
+    "tier": "Meso",
+    "relicName": "E6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454545
+  },
+  {
+    "tier": "Meso",
+    "relicName": "F1",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.2745098039215688
+  },
+  {
+    "tier": "Meso",
+    "relicName": "F2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.740458015267176
+  },
+  {
+    "tier": "Meso",
+    "relicName": "F3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.454545454545454
+  },
+  {
+    "tier": "Meso",
+    "relicName": "F4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.1525423728813555
+  },
+  {
+    "tier": "Meso",
+    "relicName": "F5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.761904761904762
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3928571428571432
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.285714285714286
+  },
+  {
+    "tier": "Meso",
+    "relicName": "G9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.130434782608696
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.75
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8846153846153846
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2608695652173916
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "H8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Meso",
+    "relicName": "I1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.692307692307692
+  },
+  {
+    "tier": "Meso",
+    "relicName": "I2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.523809523809524
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4038461538461537
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.295454545454545
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.2727272727272725
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.769230769230769
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K6",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.1363636363636362
+  },
+  {
+    "tier": "Meso",
+    "relicName": "K7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "L1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.166666666666666
+  },
+  {
+    "tier": "Meso",
+    "relicName": "L2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.903225806451613
+  },
+  {
+    "tier": "Meso",
+    "relicName": "L3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "M1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4193548387096775
+  },
+  {
+    "tier": "Meso",
+    "relicName": "M2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.666666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "M3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.666666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "M4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.1578947368421053
+  },
+  {
+    "tier": "Meso",
+    "relicName": "M5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 16.666666666666668
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.75
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.097560975609756
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.586206896551724
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4722222222222223
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.434782608695652
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.217391304347826
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8181818181818175
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.846153846153846
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.222222222222221
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.1126760563380285
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.928571428571429
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.285714285714286
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.319148936170213
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.217391304347826
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.787234042553191
+  },
+  {
+    "tier": "Meso",
+    "relicName": "N9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.2105263157894735
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.222222222222221
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.431818181818182
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O3",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.6447368421052633
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.75609756097561
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Meso",
+    "relicName": "O6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.290322580645161
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.9285714285714284
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P11",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P12",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.111111111111111
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454545
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4482758620689657
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P15",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.678571428571429
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.571428571428571
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.024390243902439
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6538461538461537
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "P9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4482758620689657
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.846153846153846
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.6315789473684212
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.178571428571429
+  },
+  {
+    "tier": "Meso",
+    "relicName": "R6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.666666666666666
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9850746268656714
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.827586206896552
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.0724637681159415
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 12.5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.291666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.813559322033898
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.605263157894737
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 14
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.069767441860465
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5641025641025643
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.838709677419355
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.142857142857142
+  },
+  {
+    "tier": "Meso",
+    "relicName": "S9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.730769230769231
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.846153846153846
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.7037037037037033
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4193548387096775
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.692307692307692
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.1311475409836067
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T7",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.6129032258064515
+  },
+  {
+    "tier": "Meso",
+    "relicName": "T8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.714285714285714
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V11",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.933333333333333
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.857142857142857
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.604166666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.3936170212765955
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.9523809523809526
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Meso",
+    "relicName": "V9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Meso",
+    "relicName": "W1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.0606060606060606
+  },
+  {
+    "tier": "Meso",
+    "relicName": "W2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333334
+  },
+  {
+    "tier": "Meso",
+    "relicName": "W3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.681818181818182
+  },
+  {
+    "tier": "Meso",
+    "relicName": "W4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.944444444444445
+  },
+  {
+    "tier": "Meso",
+    "relicName": "W5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.608695652173913
+  },
+  {
+    "tier": "Meso",
+    "relicName": "Z1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.75
+  },
+  {
+    "tier": "Meso",
+    "relicName": "Z2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.523809523809524
+  },
+  {
+    "tier": "Meso",
+    "relicName": "Z3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.129032258064516
+  },
+  {
+    "tier": "Meso",
+    "relicName": "Z4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.269230769230769
+  },
+  {
+    "tier": "Meso",
+    "relicName": "Z5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.148148148148148
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.6
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A11",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A12",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.7857142857142858
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A13",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.2727272727272725
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A14",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A15",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.9411764705882355
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.516129032258064
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A4",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.6129032258064515
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 11.458333333333334
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0434782608695654
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A7",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.694915254237288
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Neo",
+    "relicName": "A9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.36842105263158
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.8461538461538463
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.833333333333333
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.833333333333333
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6111111111111107
+  },
+  {
+    "tier": "Neo",
+    "relicName": "B9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0303030303030303
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.4375
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.1818181818181817
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.428571428571428
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.033707865168539
+  },
+  {
+    "tier": "Neo",
+    "relicName": "C6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.8
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D1",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.0638297872340425
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.413793103448276
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.681818181818182
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.714285714285714
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.032258064516129
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.34375
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Neo",
+    "relicName": "D9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.363636363636363
+  },
+  {
+    "tier": "Neo",
+    "relicName": "E1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4782608695652173
+  },
+  {
+    "tier": "Neo",
+    "relicName": "E2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.64516129032258
+  },
+  {
+    "tier": "Neo",
+    "relicName": "E3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333332
+  },
+  {
+    "tier": "Neo",
+    "relicName": "E4",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.2727272727272725
+  },
+  {
+    "tier": "Neo",
+    "relicName": "F1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.224137931034483
+  },
+  {
+    "tier": "Neo",
+    "relicName": "F2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666667
+  },
+  {
+    "tier": "Neo",
+    "relicName": "F3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.7037037037037033
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7027027027027026
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.4074074074074066
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.695652173913045
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 9.523809523809524
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.439024390243903
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G7",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.8181818181818183
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.555555555555555
+  },
+  {
+    "tier": "Neo",
+    "relicName": "G9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "H1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Neo",
+    "relicName": "H2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8
+  },
+  {
+    "tier": "Neo",
+    "relicName": "H3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.878048780487806
+  },
+  {
+    "tier": "Neo",
+    "relicName": "I1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.166666666666666
+  },
+  {
+    "tier": "Neo",
+    "relicName": "I2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.861111111111111
+  },
+  {
+    "tier": "Neo",
+    "relicName": "I3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.481481481481481
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4722222222222223
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.840909090909091
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.59090909090909
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.333333333333334
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.083333333333334
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.095238095238095
+  },
+  {
+    "tier": "Neo",
+    "relicName": "K8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.8813559322033897
+  },
+  {
+    "tier": "Neo",
+    "relicName": "L1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7
+  },
+  {
+    "tier": "Neo",
+    "relicName": "L2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "L3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.352941176470589
+  },
+  {
+    "tier": "Neo",
+    "relicName": "L4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.416666666666668
+  },
+  {
+    "tier": "Neo",
+    "relicName": "M1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.692307692307692
+  },
+  {
+    "tier": "Neo",
+    "relicName": "M2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.176470588235294
+  },
+  {
+    "tier": "Neo",
+    "relicName": "M3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6842105263157894
+  },
+  {
+    "tier": "Neo",
+    "relicName": "M4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.8181818181818175
+  },
+  {
+    "tier": "Neo",
+    "relicName": "M5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5294117647058822
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N1",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 1.477272727272727
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.303030303030304
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454546
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N12",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.723404255319149
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5294117647058822
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.705882352941177
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.545454545454546
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.095238095238095
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.217391304347826
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N18",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N19",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 13.23529411764706
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N20",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N21",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N22",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.1126760563380285
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N23",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2608695652173916
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.4
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N5",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0.7142857142857143
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.838709677419354
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.727272727272727
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.291666666666667
+  },
+  {
+    "tier": "Neo",
+    "relicName": "N9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.605263157894737
+  },
+  {
+    "tier": "Neo",
+    "relicName": "O1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.11864406779661
+  },
+  {
+    "tier": "Neo",
+    "relicName": "O2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.380952380952381
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.142857142857143
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.5714285714285716
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.2608695652173916
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.882352941176471
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.142857142857143
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.761904761904762
+  },
+  {
+    "tier": "Neo",
+    "relicName": "P8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Q1",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.923076923076923
+  },
+  {
+    "tier": "Neo",
+    "relicName": "R1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.840909090909091
+  },
+  {
+    "tier": "Neo",
+    "relicName": "R2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.666666666666667
+  },
+  {
+    "tier": "Neo",
+    "relicName": "R3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.478260869565219
+  },
+  {
+    "tier": "Neo",
+    "relicName": "R4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.964285714285714
+  },
+  {
+    "tier": "Neo",
+    "relicName": "R5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.478260869565219
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.6315789473684212
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.6842105263157894
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S11",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.6415094339622645
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S12",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.5909090909090908
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S13",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.241379310344827
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S14",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.333333333333333
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S15",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.481481481481481
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S16",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4482758620689657
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S17",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.6
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S18",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.238095238095238
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S19",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.31404958677686
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.384615384615385
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.125
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S6",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.7241379310344829
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.225806451612903
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.0724637681159415
+  },
+  {
+    "tier": "Neo",
+    "relicName": "S9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4.347826086956522
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0303030303030303
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.19047619047619
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4090909090909087
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T5",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.058823529411765
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T6",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.0434782608695654
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 4
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T8",
+    "bestUpgrade": "Exceptional",
+    "rareToAvgNonRareRatio": 1.973684210526316
+  },
+  {
+    "tier": "Neo",
+    "relicName": "T9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4375
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.804347826086957
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V10",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.25
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V3",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.225806451612903
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.263157894736842
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.717391304347826
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V7",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 10.869565217391305
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V8",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.314814814814815
+  },
+  {
+    "tier": "Neo",
+    "relicName": "V9",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 8.928571428571429
+  },
+  {
+    "tier": "Neo",
+    "relicName": "W1",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.4
+  },
+  {
+    "tier": "Neo",
+    "relicName": "W2",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 6.578947368421053
+  },
+  {
+    "tier": "Neo",
+    "relicName": "X1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5.625
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z1",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.061224489795918
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z10",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.2727272727272725
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z11",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.4482758620689657
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z2",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.7777777777777777
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z3",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.807017543859649
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z4",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 5
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z5",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 3.3333333333333335
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z6",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.3529411764705883
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z7",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.857142857142857
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z8",
+    "bestUpgrade": "Radiant",
+    "rareToAvgNonRareRatio": 7.916666666666667
+  },
+  {
+    "tier": "Neo",
+    "relicName": "Z9",
+    "bestUpgrade": "Flawless",
+    "rareToAvgNonRareRatio": 2.5806451612903225
+  },
+  {
+    "tier": "Requiem",
+    "relicName": "I",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0
+  },
+  {
+    "tier": "Requiem",
+    "relicName": "II",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0
+  },
+  {
+    "tier": "Requiem",
+    "relicName": "III",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0
+  },
+  {
+    "tier": "Requiem",
+    "relicName": "IV",
+    "bestUpgrade": null,
+    "rareToAvgNonRareRatio": 0
+  }
+]
