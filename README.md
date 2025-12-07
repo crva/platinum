@@ -6,7 +6,6 @@ A simple web application to view and compare prices of relics and their rewards 
 
 - Browse relics by tier (Lith, Meso, Neo, Axi, Requiem)
 - View reward items with minimum and median prices
-- Filter relics by type and name
 - Select items to highlight the most expensive ones in each rarity
 
 ## Data Retrieval

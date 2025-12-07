@@ -113,7 +113,14 @@ function App() {
       <Typography variant="h6" component="div" sx={{ color: "#fff" }}>
         Warframe Relic Price Viewer
       </Typography>
-      <Container sx={{ mt: 2 }} disableGutters maxWidth={false}>
+      <Typography
+        variant="body1"
+        component="div"
+        sx={{ color: "grey", fontStyle: "italic" }}
+      >
+        Last data fetch date & patch : 2025-12-06 | 40.0
+      </Typography>
+      <Container sx={{ mt: 4 }} disableGutters maxWidth={false}>
         <Controls
           type={type}
           relicNames={relicNames}

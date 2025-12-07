@@ -98,7 +98,6 @@ export default function RelicCard({
           </TableHead>
           <TableBody>
             {relic.rewards
-              .filter((r) => r.med !== null)
               .sort((a, b) => (b.med ?? 0) - (a.med ?? 0))
               .map((reward) => {
                 let rarity = reward.rarity?.toLowerCase();
