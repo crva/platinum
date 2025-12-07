@@ -1,7 +1,7 @@
 import { Clear } from "@mui/icons-material";
 import { Box, IconButton, MenuItem, Select, TextField } from "@mui/material";
+import type { RelicTier } from "../types";
 import DraggableSquares from "./DraggableSquares";
-import type { RelicTier } from "./RelicCard";
 
 const relicTypes: RelicTier[] = ["Lith", "Meso", "Neo", "Axi", "Requiem"];
 

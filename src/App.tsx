@@ -2,28 +2,18 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Controls from "./components/Controls";
-import type { RelicTier } from "./components/RelicCard";
+import History from "./components/History";
 import RelicCard from "./components/RelicCard";
-
-interface Reward {
-  itemName: string;
-  min: number | null;
-  med: number | null;
-  rarity?: string;
-}
-
-interface Relic {
-  tier: RelicTier;
-  relicName: string;
-  state: string;
-  rewards: Reward[];
-}
+import type { Relic, Reward } from "./types";
 
 function App() {
   const [data, setData] = useState<Relic[]>([]);
   const [filteredRelics, setFilteredRelics] = useState<Relic[]>([]);
   const [selected, setSelected] = useState<{ [key: string]: string }>({});
   const [finalSelected, setFinalSelected] = useState(false);
+  const [history, setHistory] = useState<
+    Array<{ relic: Relic; reward: Reward; relicKey: string }>
+  >([]);
   const [searchParams, setSearchParams] = useSearchParams();
   const type = searchParams.get("type") || "Lith";
   const relicNames = searchParams.get("search") || "";
@@ -40,6 +30,10 @@ function App() {
       type,
       search: e.target.value,
     });
+  };
+
+  const addToHistory = (relic: Relic, reward: Reward, relicKey: string) => {
+    setHistory((prev) => [...prev, { relic, reward, relicKey }]);
   };
 
   useEffect(() => {
@@ -109,6 +103,7 @@ function App() {
         setSelected({});
         setFinalSelected(false);
       }}
+      onContextMenu={(e) => e.preventDefault()}
     >
       <Typography variant="h6" component="div" sx={{ color: "#fff" }}>
         Warframe Relic Price Viewer
@@ -160,11 +155,13 @@ function App() {
                     setFinalSelected(false);
                   }
                 }}
+                addToHistory={addToHistory}
               />
             </Grid>
           ))}
         </Grid>
       </Container>
+      <History history={history} />
     </Box>
   );
 }
