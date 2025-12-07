@@ -1,3 +1,4 @@
+import DeleteIcon from "@mui/icons-material/Delete";
 import {
   Table,
   TableBody,
@@ -14,18 +15,30 @@ interface TableRowData {
   sx?: any;
   onClick?: (e: React.MouseEvent) => void;
   onContextMenu?: (e: React.MouseEvent) => void;
+  onDelete?: () => void;
+  index?: number;
 }
 
 interface RewardsTableProps {
   rows: TableRowData[];
   footer?: React.ReactNode;
+  onDelete?: (index: number) => void;
 }
 
-export default function RewardsTable({ rows, footer }: RewardsTableProps) {
+export default function RewardsTable({
+  rows,
+  footer,
+  onDelete,
+}: RewardsTableProps) {
   return (
     <Table size="small" sx={{ "& .MuiTableCell-root": { padding: "4px 8px" } }}>
       <TableHead>
         <TableRow>
+          {onDelete && (
+            <TableCell size="small" sx={{ color: "#fff" }}>
+              <DeleteIcon sx={{ fontSize: 16 }} />
+            </TableCell>
+          )}
           <TableCell size="small" sx={{ color: "#fff" }}>
             Item
           </TableCell>
@@ -74,6 +87,8 @@ export default function RewardsTable({ rows, footer }: RewardsTableProps) {
             sx={row.sx}
             onClick={row.onClick}
             onContextMenu={row.onContextMenu}
+            onDelete={row.onDelete}
+            index={row.index}
           />
         ))}
         {footer}

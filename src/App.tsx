@@ -13,7 +13,18 @@ function App() {
   const [finalSelected, setFinalSelected] = useState(false);
   const [history, setHistory] = useState<
     Array<{ relic: Relic; reward: Reward; relicKey: string }>
-  >([]);
+  >(() => {
+    const saved = localStorage.getItem("platinum-history");
+    if (saved) {
+      try {
+        return JSON.parse(saved);
+      } catch (e) {
+        console.error("Failed to parse history from localStorage", e);
+        return [];
+      }
+    }
+    return [];
+  });
   const [searchParams, setSearchParams] = useSearchParams();
   const type = searchParams.get("type") || "Lith";
   const relicNames = searchParams.get("search") || "";
@@ -35,6 +46,18 @@ function App() {
   const addToHistory = (relic: Relic, reward: Reward, relicKey: string) => {
     setHistory((prev) => [...prev, { relic, reward, relicKey }]);
   };
+
+  const removeFromHistory = (index: number) => {
+    setHistory((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const clearAllHistory = () => {
+    setHistory([]);
+  };
+
+  useEffect(() => {
+    localStorage.setItem("platinum-history", JSON.stringify(history));
+  }, [history]);
 
   useEffect(() => {
     fetch("/relic_prices.json")
@@ -161,7 +184,11 @@ function App() {
           ))}
         </Grid>
       </Container>
-      <History history={history} />
+      <History
+        history={history}
+        onDelete={removeFromHistory}
+        onClearAll={clearAllHistory}
+      />
     </Box>
   );
 }

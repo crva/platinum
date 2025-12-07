@@ -1,3 +1,4 @@
+import { Close } from "@mui/icons-material";
 import { TableCell, TableRow } from "@mui/material";
 import type { Reward } from "../types";
 
@@ -7,6 +8,8 @@ interface RewardRowProps {
   onClick?: (e: React.MouseEvent) => void;
   onContextMenu?: (e: React.MouseEvent) => void;
   sx?: any;
+  onDelete?: (index: number) => void;
+  index?: number;
 }
 
 export default function RewardRow({
@@ -15,9 +18,30 @@ export default function RewardRow({
   onClick,
   onContextMenu,
   sx,
+  onDelete,
+  index,
 }: RewardRowProps) {
   return (
     <TableRow sx={sx} onClick={onClick} onContextMenu={onContextMenu}>
+      {onDelete && index !== undefined && (
+        <TableCell size="small" sx={{ color: "#fff" }}>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onDelete(index);
+            }}
+            style={{
+              background: "none",
+              border: "none",
+              color: "#fff",
+              cursor: "pointer",
+              padding: 0,
+            }}
+          >
+            <Close sx={{ color: "#c72424", fontSize: 16 }} />
+          </button>
+        </TableCell>
+      )}
       <TableCell
         size="small"
         sx={{
