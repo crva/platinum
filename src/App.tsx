@@ -126,7 +126,6 @@ function App() {
           relicNames={relicNames}
           onTypeChange={handleTypeChange}
           onRelicNamesChange={handleRelicNamesChange}
-          onClear={() => setSearchParams({ type, search: "" })}
         />
         <Grid container spacing={2}>
           {filteredRelics.map((relic, index) => (

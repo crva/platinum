@@ -1,4 +1,6 @@
-import { Box, Button, MenuItem, Select, TextField } from "@mui/material";
+import { Clear } from "@mui/icons-material";
+import { Box, IconButton, MenuItem, Select, TextField } from "@mui/material";
+import DraggableSquares from "./DraggableSquares";
 import type { RelicTier } from "./RelicCard";
 
 const relicTypes: RelicTier[] = ["Lith", "Meso", "Neo", "Axi", "Requiem"];
@@ -8,7 +10,6 @@ interface ControlsProps {
   relicNames: string;
   onTypeChange: (e: any) => void;
   onRelicNamesChange: (e: any) => void;
-  onClear: () => void;
 }
 
 export default function Controls({
@@ -16,10 +17,9 @@ export default function Controls({
   relicNames,
   onTypeChange,
   onRelicNamesChange,
-  onClear,
 }: ControlsProps) {
   return (
-    <Box sx={{ display: "flex", gap: 2, mb: 1 }}>
+    <Box sx={{ display: "flex", gap: 2, mb: 1, alignItems: "center" }}>
       <Select
         value={type}
         onChange={onTypeChange}
@@ -51,16 +51,26 @@ export default function Controls({
           "& .MuiInputLabel-root": { color: "#fff" },
           "& .MuiOutlinedInput-notchedOutline": { borderColor: "#fff" },
         }}
-        InputProps={{ style: { color: "#fff" } }}
+        InputProps={{
+          style: { color: "#fff" },
+          endAdornment: relicNames ? (
+            <IconButton
+              onClick={() =>
+                onRelicNamesChange({ target: { value: "" } } as any)
+              }
+              sx={{
+                color: "#fff",
+                "&:hover": { backgroundColor: "transparent" },
+                paddingRight: 0,
+              }}
+            >
+              <Clear />
+            </IconButton>
+          ) : null,
+        }}
         InputLabelProps={{ style: { color: "#fff" } }}
       />
-      <Button
-        variant="outlined"
-        onClick={onClear}
-        sx={{ color: "white", borderColor: "white" }}
-      >
-        Clear
-      </Button>
+      <DraggableSquares />
     </Box>
   );
 }
