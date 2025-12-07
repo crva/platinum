@@ -1,4 +1,10 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import {
+  Box,
+  CircularProgress,
+  Container,
+  Grid,
+  Typography,
+} from "@mui/material";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Controls from "./components/Controls";
@@ -11,6 +17,7 @@ function App() {
   const [filteredRelics, setFilteredRelics] = useState<Relic[]>([]);
   const [selected, setSelected] = useState<{ [key: string]: string }>({});
   const [finalSelected, setFinalSelected] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [history, setHistory] = useState<
     Array<{ relic: Relic; reward: Reward; relicKey: string }>
   >(() => {
@@ -60,9 +67,14 @@ function App() {
   }, [history]);
 
   useEffect(() => {
+    setLoading(true);
     fetch("/relic_prices.json")
       .then((res) => res.json())
-      .then((json) => setData(json));
+      .then((json) => {
+        setData(json);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, []);
 
   useEffect(() => {
@@ -119,6 +131,21 @@ function App() {
       }
     }
   }, [selected, filteredRelics]);
+
+  if (loading) {
+    return (
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <CircularProgress />
+      </Box>
+    );
+  }
 
   return (
     <Box
