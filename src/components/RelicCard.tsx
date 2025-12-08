@@ -6,7 +6,7 @@ import {
   MenuItem,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { Relic, Reward } from "../types";
 import RewardsTable from "./RewardsTable";
 
@@ -38,51 +38,49 @@ export default function RelicCard({
     mouseY: number;
   } | null>(null);
 
-  // Compute highlights for max in each rarity across all relics
-  let maxRareMed = -Infinity;
-  let maxRareKey = "";
-  let maxUncommonMed = -Infinity;
-  let maxUncommonKey = "";
-  let maxCommonMed = -Infinity;
-  let maxCommonKey = "";
-  filteredRelics.forEach((rel) => {
-    rel.rewards.forEach((reward, idx) => {
-      let rarity = reward.rarity?.toLowerCase();
-      if (!rarity || rarity === "uncommon") {
+  const { maxRareKey, maxUncommonKey, maxCommonKey } = useMemo(() => {
+    let maxRareMed = -Infinity;
+    let maxRareKey = "";
+    let maxUncommonMed = -Infinity;
+    let maxUncommonKey = "";
+    let maxCommonMed = -Infinity;
+    let maxCommonKey = "";
+    filteredRelics.forEach((rel) => {
+      rel.rewards.forEach((reward, idx) => {
+        let rarity: string;
         if (idx === 0) rarity = "rare";
         else if (idx === 1 || idx === 2) rarity = "uncommon";
         else rarity = "common";
-      }
-      const itemKey = rel.tier + rel.relicName + reward.itemName;
-      if (reward.med !== null) {
-        if (rarity === "rare" && reward.med > maxRareMed) {
-          maxRareMed = reward.med;
-          maxRareKey = itemKey;
+        const itemKey = rel.tier + rel.relicName + reward.itemName;
+        if (reward.med !== null) {
+          if (rarity === "rare" && reward.med > maxRareMed) {
+            maxRareMed = reward.med;
+            maxRareKey = itemKey;
+          }
+          if (rarity === "uncommon" && reward.med > maxUncommonMed) {
+            maxUncommonMed = reward.med;
+            maxUncommonKey = itemKey;
+          }
+          if (rarity === "common" && reward.med > maxCommonMed) {
+            maxCommonMed = reward.med;
+            maxCommonKey = itemKey;
+          }
         }
-        if (rarity === "uncommon" && reward.med > maxUncommonMed) {
-          maxUncommonMed = reward.med;
-          maxUncommonKey = itemKey;
-        }
-        if (rarity === "common" && reward.med > maxCommonMed) {
-          maxCommonMed = reward.med;
-          maxCommonKey = itemKey;
-        }
-      }
+      });
     });
-  });
+    return { maxRareKey, maxUncommonKey, maxCommonKey };
+  }, [filteredRelics]);
 
   const rows = relic.rewards
     .sort((a, b) => (b.med ?? 0) - (a.med ?? 0))
     .map((reward) => {
-      let rarity = reward.rarity?.toLowerCase();
-      if (!rarity || rarity === "uncommon") {
-        const idx = relic.rewards.findIndex(
-          (r) => r.itemName === reward.itemName
-        );
-        if (idx === 0) rarity = "rare";
-        else if (idx === 1 || idx === 2) rarity = "uncommon";
-        else rarity = "common";
-      }
+      let rarity: string;
+      const idx = relic.rewards.findIndex(
+        (r) => r.itemName === reward.itemName
+      );
+      if (idx === 0) rarity = "rare";
+      else if (idx === 1 || idx === 2) rarity = "uncommon";
+      else rarity = "common";
       const itemKey = relic.tier + relic.relicName + reward.itemName;
       const isSelected = selected[relicKey] === reward.itemName;
       let rowStyle: any = {};
