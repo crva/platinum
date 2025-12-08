@@ -132,14 +132,18 @@ function App() {
         return;
       }
       const filtered = names
-        .map((name) =>
-          data.find(
+        .map((name, index) => {
+          const relic = data.find(
             (r) =>
               r.tier === type &&
               r.state === "Intact" &&
               r.relicName.toLowerCase() === name
-          )
-        )
+          );
+          if (relic) {
+            return { ...relic, instanceId: `${type}${name}_${index}` }; // Add unique instanceId
+          }
+          return null;
+        })
         .filter(Boolean) as Relic[];
       setFilteredRelics(filtered);
     }
