@@ -83,12 +83,24 @@ export default function RelicCard({
     return { maxRareKey, maxUncommonKey, maxCommonKey };
   }, [filteredRelics]);
 
-  const rows = relic.rewards.map((reward, idx) => {
+  // Assign rarity to each reward before sorting
+  const rewardsWithRarity = relic.rewards.map((reward, idx) => {
     let rarity: string;
     if (idx === 0) rarity = "rare";
     else if (idx === 1 || idx === 2) rarity = "uncommon";
-    else rarity = "common"; // Ensure last three are marked as common
+    else rarity = "common";
+    return { ...reward, _rarity: rarity };
+  });
 
+  // Sort by med value descending
+  const sortedRewards = [...rewardsWithRarity].sort((a, b) => {
+    const aMed = a.med === null ? -Infinity : a.med;
+    const bMed = b.med === null ? -Infinity : b.med;
+    return bMed - aMed;
+  });
+
+  const rows = sortedRewards.map((reward) => {
+    const rarity = reward._rarity;
     const itemKey = `${relic.instanceId ?? relic.tier}${relic.relicName}${
       reward.itemName
     }`;
@@ -128,7 +140,11 @@ export default function RelicCard({
       <CardContent sx={{ p: 1 }}>
         <Typography variant="h6" sx={{ mb: 2 }}>
           {relic.tier} {relic.relicName}
-          {relic.bestUpgrade ? ` (${relic.bestUpgrade})` : ""}
+          {relic.bestUpgrade && (
+            <span style={{ color: '#ffd700', fontWeight: 500 }}>
+              {` (Best: ${relic.bestUpgrade})`}
+            </span>
+          )}
         </Typography>
         <RewardsTable rows={rows} />
       </CardContent>
