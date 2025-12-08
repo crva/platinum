@@ -5,6 +5,7 @@ A simple web application to view and compare prices of relics and their rewards 
 ## Features
 
 - Browse relics by tier (Lith, Meso, Neo, Axi, Requiem)
+- View the best relic upgrade to maximize chances of obtaining platinum (`tools/relic_profitability.ts`)
 - View reward items with minimum and median prices
 - Select items to highlight the most expensive ones in each rarity
 - Item history to view total platinum for selected items
