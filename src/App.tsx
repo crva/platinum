@@ -150,6 +150,9 @@ function App() {
   }, [data, type, relicNames]);
 
   useEffect(() => {
+    if (finalSelected) {
+      return;
+    }
     const selectedCount = Object.keys(selected).length;
     if (selectedCount === filteredRelics.length && selectedCount > 0) {
       let bestRelicKey = "";
@@ -157,41 +160,35 @@ function App() {
       let bestMed = -Infinity;
       let bestMin = -Infinity;
 
-      // Create a Set to track unique relics
-      const uniqueRelics = new Set<string>();
-
-      for (const relicKey in selected) {
-        const relic = filteredRelics.find((r) => {
-          const relicIdentifier = `${r.tier}${r.relicName}`;
-          if (!uniqueRelics.has(relicIdentifier)) {
-            uniqueRelics.add(relicIdentifier);
-            return relicKey.startsWith(`${r.tier}${r.relicName}_`);
-          }
-          return false;
-        });
-
+      Object.entries(selected).forEach(([relicKey, itemName]) => {
+        // Find relic by unique instanceId (case-insensitive match)
+        const relic = filteredRelics.find(
+          (r) =>
+            r.instanceId &&
+            r.instanceId.toLowerCase() === relicKey.toLowerCase()
+        );
         if (relic) {
-          const item = selected[relicKey];
-          const reward = relic.rewards.find((r) => r.itemName === item);
-          if (reward && reward.med !== null) {
-            const med = reward.med;
+          // Find the reward by name, regardless of order
+          const reward = relic.rewards.find((r) => r.itemName === itemName);
+          if (reward) {
+            const med = reward.med === null ? 0 : reward.med;
             const min = reward.min ?? 0;
             if (med > bestMed || (med === bestMed && min > bestMin)) {
               bestMed = med;
               bestMin = min;
               bestRelicKey = relicKey;
-              bestItem = item;
+              bestItem = itemName;
             }
           }
         }
-      }
+      });
 
       if (bestRelicKey) {
         setSelected({ [bestRelicKey]: bestItem });
         setFinalSelected(true);
       }
     }
-  }, [selected, filteredRelics]);
+  }, [selected, filteredRelics, finalSelected]);
 
   if (loading) {
     return (

@@ -141,7 +141,7 @@ export default function RelicCard({
         <Typography variant="h6" sx={{ mb: 2 }}>
           {relic.tier} {relic.relicName}
           {relic.bestUpgrade && (
-            <span style={{ color: '#ffd700', fontWeight: 500 }}>
+            <span style={{ color: "#ffd700", fontWeight: 500 }}>
               {` (Best: ${relic.bestUpgrade})`}
             </span>
           )}
