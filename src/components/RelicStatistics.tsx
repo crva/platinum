@@ -9,112 +9,31 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import React, { useMemo } from "react";
-import type { Relic, Reward } from "../types";
+import type { RelicStat } from "../tools/statistics";
+import {
+  getBestCommonReward,
+  getBestRare,
+  getBestUncommon,
+  getMostProfitableRelics,
+  getRelicStats,
+} from "../tools/statistics";
+import type { Relic } from "../types";
 import PlatinumText from "./PlatinumText";
 import StatisticsCard from "./StatisticsCard";
-
-type RelicStat = {
-  relicName: string;
-  tier: string;
-  avgPlatinum: number;
-  bestCommon: Reward | null;
-  bestUncommon: Reward | null;
-  bestRare: Reward | null;
-};
 
 type RelicStatisticsProps = {
   relics: Relic[];
 };
-
-// Helper to flatten rewards and calculate statistics
-function getRelicStats(relics: Relic[]) {
-  // Calculate average platinum per relic
-  const relicStats = relics.map((relic) => {
-    let total = 0;
-    let count = 0;
-    let bestCommon: Reward | null = null,
-      bestUncommon: Reward | null = null,
-      bestRare: Reward | null = null;
-    relic.rewards.forEach((reward) => {
-      if (typeof reward.med === "number") {
-        total += reward.med;
-        count++;
-        if (
-          reward.rarity === "Common" &&
-          reward.med !== null &&
-          (!bestCommon ||
-            (bestCommon.med !== null && reward.med > bestCommon.med))
-        )
-          bestCommon = reward;
-        if (
-          reward.rarity === "Uncommon" &&
-          reward.med !== null &&
-          (!bestUncommon ||
-            (bestUncommon.med !== null && reward.med > bestUncommon.med))
-        )
-          bestUncommon = reward;
-        if (
-          reward.rarity === "Rare" &&
-          reward.med !== null &&
-          (!bestRare || (bestRare.med !== null && reward.med > bestRare.med))
-        )
-          bestRare = reward;
-      }
-    });
-    const avg = count ? total / count : 0;
-    return {
-      relicName: relic.relicName,
-      tier: relic.tier,
-      avgPlatinum: avg,
-      bestCommon,
-      bestUncommon,
-      bestRare,
-      rareToAvgNonRareRatio: null,
-      bestUpgrade: null,
-    };
-  });
-  return relicStats;
-}
 
 const RelicStatistics: React.FC<RelicStatisticsProps> = ({ relics }) => {
   const relicStats: RelicStat[] = useMemo(
     () => getRelicStats(relics),
     [relics]
   );
-
-  // Most profitable relics
-  const mostProfitable = [...relicStats]
-    .sort((a, b) => b.avgPlatinum - a.avgPlatinum)
-    .slice(0, 10);
-  // Best for each rarity
-  const bestUncommon: RelicStat | undefined = relicStats
-    .filter((r) => r.bestUncommon && r.bestUncommon.med !== null)
-    .sort((a, b) => (b.bestUncommon?.med ?? 0) - (a.bestUncommon?.med ?? 0))[0];
-  const bestRare: RelicStat | undefined = relicStats
-    .filter((r) => r.bestRare && r.bestRare.med !== null)
-    .sort((a, b) => (b.bestRare?.med ?? 0) - (a.bestRare?.med ?? 0))[0];
-  // Best Common Reward: for each relic, the last 3 rewards in the rewards array are the 'common' rewards
-  let bestCommonReward = undefined as
-    | { relic: RelicStat; reward: Reward }
-    | undefined;
-  relicStats.forEach((relic) => {
-    const relicData = relics.find(
-      (r) => r.relicName === relic.relicName && r.tier === relic.tier
-    );
-    if (relicData && relicData.rewards.length >= 3) {
-      const last3 = relicData.rewards.slice(-3);
-      last3.forEach((reward) => {
-        if (typeof reward.med === "number") {
-          if (
-            !bestCommonReward ||
-            (reward.med ?? 0) > (bestCommonReward.reward.med ?? 0)
-          ) {
-            bestCommonReward = { relic, reward };
-          }
-        }
-      });
-    }
-  });
+  const mostProfitable = getMostProfitableRelics(relicStats, 10);
+  const bestUncommon = getBestUncommon(relicStats);
+  const bestRare = getBestRare(relicStats);
+  const bestCommonReward = getBestCommonReward(relicStats, relics);
 
   return (
     <Box>
