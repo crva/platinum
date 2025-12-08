@@ -13,6 +13,7 @@ export interface Relic {
   state: string;
   rewards: Reward[];
   bestUpgrade?: string | null;
+  instanceId?: string; // Added to uniquely identify relic instances
 }
 
 export interface HistoryItem {

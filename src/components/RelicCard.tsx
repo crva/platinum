@@ -45,71 +45,83 @@ export default function RelicCard({
     let maxUncommonKey = "";
     let maxCommonMed = -Infinity;
     let maxCommonKey = "";
+
+    const seenRewards = new Set<string>(); // Track unique rewards
+
     filteredRelics.forEach((rel) => {
       rel.rewards.forEach((reward, idx) => {
+        const rewardIdentifier = `${rel.instanceId ?? rel.tier}${
+          rel.relicName
+        }${reward.itemName}`;
+        if (seenRewards.has(rewardIdentifier)) {
+          return; // Skip duplicate rewards
+        }
+        seenRewards.add(rewardIdentifier);
+
         let rarity: string;
         if (idx === 0) rarity = "rare";
         else if (idx === 1 || idx === 2) rarity = "uncommon";
         else rarity = "common";
-        const itemKey = rel.tier + rel.relicName + reward.itemName;
+
         if (reward.med !== null) {
           if (rarity === "rare" && reward.med > maxRareMed) {
             maxRareMed = reward.med;
-            maxRareKey = itemKey;
+            maxRareKey = rewardIdentifier;
           }
           if (rarity === "uncommon" && reward.med > maxUncommonMed) {
             maxUncommonMed = reward.med;
-            maxUncommonKey = itemKey;
+            maxUncommonKey = rewardIdentifier;
           }
           if (rarity === "common" && reward.med > maxCommonMed) {
             maxCommonMed = reward.med;
-            maxCommonKey = itemKey;
+            maxCommonKey = rewardIdentifier;
           }
         }
       });
     });
+
     return { maxRareKey, maxUncommonKey, maxCommonKey };
   }, [filteredRelics]);
 
-  const rows = relic.rewards
-    .sort((a, b) => (b.med ?? 0) - (a.med ?? 0))
-    .map((reward) => {
-      let rarity: string;
-      const idx = relic.rewards.findIndex(
-        (r) => r.itemName === reward.itemName
-      );
-      if (idx === 0) rarity = "rare";
-      else if (idx === 1 || idx === 2) rarity = "uncommon";
-      else rarity = "common";
-      const itemKey = relic.tier + relic.relicName + reward.itemName;
-      const isSelected = selected[relicKey] === reward.itemName;
-      let rowStyle: any = {};
-      if (itemKey === maxRareKey) rowStyle.background = "#63521f";
-      else if (itemKey === maxUncommonKey) rowStyle.background = "#5a5a5a";
-      else if (itemKey === maxCommonKey) rowStyle.background = "#4e2f21";
-      let rowStyleUpdated: any = { ...rowStyle };
-      if (finalSelected && isSelected) {
-        rowStyleUpdated.background = "#81c784";
-      } else if (isSelected) {
-        rowStyleUpdated.background = "#4caf50";
-      }
-      return {
-        reward,
-        rarity,
-        sx: rowStyleUpdated,
-        onClick: (e: React.MouseEvent) =>
-          onRowClick(relicKey, reward.itemName, e),
-        onContextMenu: (e: React.MouseEvent) => {
-          e.preventDefault();
-          setAnchorEl(e.currentTarget as HTMLElement);
-          setCurrentReward(reward);
-          setMousePosition({
-            mouseX: e.clientX,
-            mouseY: e.clientY,
-          });
-        },
-      };
-    });
+  const rows = relic.rewards.map((reward, idx) => {
+    let rarity: string;
+    if (idx === 0) rarity = "rare";
+    else if (idx === 1 || idx === 2) rarity = "uncommon";
+    else rarity = "common"; // Ensure last three are marked as common
+
+    const itemKey = `${relic.instanceId ?? relic.tier}${relic.relicName}${
+      reward.itemName
+    }`;
+    const isSelected = selected[relicKey] === reward.itemName;
+    let rowStyle: any = {};
+    if (itemKey === maxRareKey) rowStyle.background = "#63521f";
+    else if (itemKey === maxUncommonKey) rowStyle.background = "#5a5a5a";
+    else if (itemKey === maxCommonKey) rowStyle.background = "#4e2f21";
+
+    let rowStyleUpdated: any = { ...rowStyle };
+    if (finalSelected && isSelected) {
+      rowStyleUpdated.background = "#81c784";
+    } else if (isSelected) {
+      rowStyleUpdated.background = "#4caf50";
+    }
+
+    return {
+      reward,
+      rarity,
+      sx: rowStyleUpdated,
+      onClick: (e: React.MouseEvent) =>
+        onRowClick(relicKey, reward.itemName, e),
+      onContextMenu: (e: React.MouseEvent) => {
+        e.preventDefault();
+        setAnchorEl(e.currentTarget as HTMLElement);
+        setCurrentReward(reward);
+        setMousePosition({
+          mouseX: e.clientX,
+          mouseY: e.clientY,
+        });
+      },
+    };
+  });
 
   return (
     <Card variant="outlined" sx={{ bgcolor: "grey.900", color: "#fff" }}>

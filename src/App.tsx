@@ -101,19 +101,26 @@ function App() {
         .map((n) => n.trim().toLowerCase())
         .filter((n) => n.length > 0);
       const filtered: Relic[] = [];
+
       for (let i = 0; i < parts.length; i += 2) {
         const tierInput = parts[i];
         const name = parts[i + 1];
         if (!name) break;
         const tier = tierInput.charAt(0).toUpperCase() + tierInput.slice(1);
+        const relicKey = `${tier}${name}_${i / 2}`; // Unique key for each instance
+
         const relic = data.find(
           (r) =>
             r.tier === tier &&
             r.state === "Intact" &&
             r.relicName.toLowerCase() === name
         );
-        if (relic) filtered.push(relic);
+
+        if (relic) {
+          filtered.push({ ...relic, instanceId: relicKey }); // Add unique instanceId
+        }
       }
+
       setFilteredRelics(filtered);
     } else {
       const names = relicNames
@@ -145,10 +152,20 @@ function App() {
       let bestItem = "";
       let bestMed = -Infinity;
       let bestMin = -Infinity;
+
+      // Create a Set to track unique relics
+      const uniqueRelics = new Set<string>();
+
       for (const relicKey in selected) {
-        const relic = filteredRelics.find((r) =>
-          relicKey.startsWith(`${r.tier}${r.relicName}_`)
-        );
+        const relic = filteredRelics.find((r) => {
+          const relicIdentifier = `${r.tier}${r.relicName}`;
+          if (!uniqueRelics.has(relicIdentifier)) {
+            uniqueRelics.add(relicIdentifier);
+            return relicKey.startsWith(`${r.tier}${r.relicName}_`);
+          }
+          return false;
+        });
+
         if (relic) {
           const item = selected[relicKey];
           const reward = relic.rewards.find((r) => r.itemName === item);
@@ -164,6 +181,7 @@ function App() {
           }
         }
       }
+
       if (bestRelicKey) {
         setSelected({ [bestRelicKey]: bestItem });
         setFinalSelected(true);
