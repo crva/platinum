@@ -10,6 +10,7 @@ import { useSearchParams } from "react-router-dom";
 import Controls from "./components/Controls";
 import History from "./components/History";
 import RelicCard from "./components/RelicCard";
+import RelicStatistics from "./components/RelicStatistics";
 import { useRelicData } from "./hooks/useRelicData";
 import type { Relic, Reward } from "./types";
 
@@ -246,6 +247,7 @@ function App() {
         onDelete={removeFromHistory}
         onClearAll={clearAllHistory}
       />
+      <RelicStatistics relics={data} />
     </Box>
   );
 }

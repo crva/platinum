@@ -9,6 +9,7 @@ A simple web application to view and compare prices of relics and their rewards 
 - View reward items with minimum and median prices
 - Select items to highlight the most expensive ones in each rarity
 - Item history to view total platinum for selected items
+- View global statistics about relics (best rare reward, top 10 most profitable relics ...)
 
 ## Data Retrieval
 
