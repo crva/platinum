@@ -10,14 +10,14 @@ import { useSearchParams } from "react-router-dom";
 import Controls from "./components/Controls";
 import History from "./components/History";
 import RelicCard from "./components/RelicCard";
+import { useRelicData } from "./hooks/useRelicData";
 import type { Relic, Reward } from "./types";
 
 function App() {
-  const [data, setData] = useState<Relic[]>([]);
+  const { data, loading } = useRelicData();
   const [filteredRelics, setFilteredRelics] = useState<Relic[]>([]);
   const [selected, setSelected] = useState<{ [key: string]: string }>({});
   const [finalSelected, setFinalSelected] = useState(false);
-  const [loading, setLoading] = useState(true);
   const [history, setHistory] = useState<
     Array<{ relic: Relic; reward: Reward; relicKey: string }>
   >(() => {
@@ -65,34 +65,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem("platinum-history", JSON.stringify(history));
   }, [history]);
-
-  useEffect(() => {
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const res = await fetch("/relic_prices.json");
-        const json = await res.json();
-        // Fetch profitability data
-        const profitabilityRes = await fetch("/relic_profitability.json");
-        const profitabilityJson = await profitabilityRes.json();
-        const map = new Map<string, string | null>();
-        profitabilityJson.forEach((item: any) => {
-          const key = `${item.tier}${item.relicName}`;
-          map.set(key, item.bestUpgrade);
-        });
-        // Merge into data
-        json.forEach((relic: any) => {
-          relic.bestUpgrade = map.get(`${relic.tier}${relic.relicName}`);
-        });
-        setData(json);
-      } catch (error) {
-        console.error("Error loading data:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    loadData();
-  }, []);
 
   useEffect(() => {
     if (type === "Multiple") {
