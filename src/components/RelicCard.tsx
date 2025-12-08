@@ -118,6 +118,7 @@ export default function RelicCard({
       <CardContent sx={{ p: 1 }}>
         <Typography variant="h6" sx={{ mb: 2 }}>
           {relic.tier} {relic.relicName}
+          {relic.bestUpgrade ? ` (${relic.bestUpgrade})` : ""}
         </Typography>
         <RewardsTable rows={rows} />
       </CardContent>

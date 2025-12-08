@@ -12,6 +12,7 @@ export interface Relic {
   relicName: string;
   state: string;
   rewards: Reward[];
+  bestUpgrade?: string | null;
 }
 
 export interface HistoryItem {
