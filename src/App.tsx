@@ -67,11 +67,24 @@ function App() {
   }, [history]);
 
   useEffect(() => {
-    if (type === "Multiple") {
-      const parts = relicNames
+    // Helper to split, trim, and lowercase input
+    const parseNames = (input: string) =>
+      input
         .split(" ")
         .map((n) => n.trim().toLowerCase())
         .filter((n) => n.length > 0);
+
+    // Helper to find a relic in data
+    const findRelic = (tier: string, name: string) =>
+      data.find(
+        (r) =>
+          r.tier === tier &&
+          r.state === "Intact" &&
+          r.relicName.toLowerCase() === name
+      );
+
+    if (type === "Multiple") {
+      const parts = parseNames(relicNames);
       const filtered: Relic[] = [];
 
       for (let i = 0; i < parts.length; i += 2) {
@@ -81,12 +94,7 @@ function App() {
         const tier = tierInput.charAt(0).toUpperCase() + tierInput.slice(1);
         const relicKey = `${tier}${name}_${i / 2}`; // Unique key for each instance
 
-        const relic = data.find(
-          (r) =>
-            r.tier === tier &&
-            r.state === "Intact" &&
-            r.relicName.toLowerCase() === name
-        );
+        const relic = findRelic(tier, name);
 
         if (relic) {
           filtered.push({ ...relic, instanceId: relicKey }); // Add unique instanceId
@@ -95,22 +103,14 @@ function App() {
 
       setFilteredRelics(filtered);
     } else {
-      const names = relicNames
-        .split(" ")
-        .map((n) => n.trim().toLowerCase())
-        .filter((n) => n.length > 0);
+      const names = parseNames(relicNames);
       if (names.length === 0) {
         setFilteredRelics([]);
         return;
       }
       const filtered = names
         .map((name, index) => {
-          const relic = data.find(
-            (r) =>
-              r.tier === type &&
-              r.state === "Intact" &&
-              r.relicName.toLowerCase() === name
-          );
+          const relic = findRelic(type, name);
           if (relic) {
             return { ...relic, instanceId: `${type}${name}_${index}` }; // Add unique instanceId
           }
