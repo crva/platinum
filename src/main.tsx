@@ -1,13 +1,10 @@
-import { inject } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./main.css";
-
-// Initialize Vercel Web Analytics
-inject();
 
 const theme = createTheme({
   palette: {
@@ -20,6 +17,7 @@ createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <App />
+        <Analytics />
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode>
